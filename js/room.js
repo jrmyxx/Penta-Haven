@@ -7,7 +7,7 @@ function updateImages(selectId, imageId) {
 
     // Update the image source based on the selected value
     if (selectedValue) {
-        imageElement.src = `${selectedValue.toLowerCase().replace(/ /g, "_")}.jpg`;
+        imageElement.src = `${selectedValue.toLowerCase().replace(/ /g, "_")}.JPG`;
         imageElement.style.display = 'block';
     } else {
         imageElement.src = '';
